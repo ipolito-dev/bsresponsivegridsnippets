@@ -1,0 +1,21 @@
+{
+    "name": "bsresponsivegridsnippets",
+    "displayName": "bsresponsivegridsnippets",
+    "description": "Simple snippets resposive grid",
+    "version": "1.0.0",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "dart",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

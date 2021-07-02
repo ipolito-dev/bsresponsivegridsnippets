@@ -1,0 +1,20 @@
+{
+    "Create Responsive Grid Row": {
+        "prefix": "rg_row",
+        "body": [
+            "ResponsiveGridRow(",
+            "children: [${1:col}]",
+            ",),",
+        ],
+        "description": "Create Responsive Grid Row"
+    },
+    "Create Responsive Grid Col": {
+        "prefix": "rg_col",
+        "body": [
+            "ResponsiveGridCol(",
+            "child: ${1:child}",
+            ",),",
+        ],
+        "description": "Create Responsive Grid Col"
+    }
+}
